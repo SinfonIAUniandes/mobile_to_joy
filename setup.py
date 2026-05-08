@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'mobile_to_joy_node = mobile_to_joy.mobile_to_joy_node:main',
         ],
     },
 )
